@@ -1,4 +1,4 @@
-# == Class: strident-octo-giggle
+# == Class: licensefile
 #
 # Full description of class strident-octo-giggle here.
 #
@@ -18,8 +18,11 @@
 #
 # Copyright 2015 Malcolm Badley.
 #
+class licensefile {
 file { '/path/to/file.lic':
                 unless => '/bin/ls /path/to/file.lic.installed',
                 source => "puppet:///modules/strident-octo-giggle/file.lic",
                 ensure => present,
+}
+
 }
