@@ -31,11 +31,6 @@ file { '/path/to/file.lic':
                 unless => '/bin/ls /path/to/file.lic.installed',
                 source => "puppet:///modules/strident-octo-giggle/file.lic",
                 ensure => present,
-  } ->
-
-#ensure license file has correct content
-file { '/path/to/file.lic.installed':
-                source => "puppet:///modules/strident-octo-giggle/file.lic",
-                ensure => present,
   }
+
 }
