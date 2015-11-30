@@ -10,6 +10,10 @@
 #
 # None.
 #
+#include strident-octo-giggle
+#class { 'licensefile':
+#}
+#
 # === Authors
 #
 # Author Name malc@mail.com
