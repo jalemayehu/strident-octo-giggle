@@ -1,0 +1,12 @@
+{
+  "name": "strident-octo-giggle",
+  "version": "0.1.0",
+  "author": "mbadley",
+  "summary": "Licensefile",
+  "license": "Apache 2.0",
+  "source": "https://github.com/jalemayehu/strident-octo-giggle.git",
+  "project_page": "malc@mail.com",
+  "issues_url": "https://github.com/jalemayehu/strident-octo-giggle/issues",
+  "dependencies": [
+    {"version_requirement":">= 1.0.0","name":"puppetlabs-stdlib"}
+  ]
